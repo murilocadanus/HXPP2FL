@@ -10,6 +10,6 @@
 	
 	<assets path="Assets" rename="assets" />
 
-	<include path="/Users/mino/Documents/Projects/openfl/NativeCOM" />
+	<include path="/Users/murilocosta/Documents/Projects/haxe/NativeCOM" />
 	
 </project>

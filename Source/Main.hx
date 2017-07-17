@@ -94,6 +94,8 @@ class Main extends Sprite
 		var imgData:String = NativeCOM.byteImageArray();
 		var ba:ByteArray = Base64.decode(imgData);
 
+		trace(ba.readUTF());
+
 		_imgLoader = new Loader(); 
 		_imgLoader.contentLoaderInfo.addEventListener(Event.COMPLETE, textureLoadComplete);
 		_imgLoader.loadBytes(ba);
